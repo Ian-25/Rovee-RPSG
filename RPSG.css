@@ -1,0 +1,100 @@
+body {
+
+  background: linear-gradient(45deg, #0a0a0a, #3a4452)
+  
+}
+
+
+h1{
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    background-color: #b67dd6c1;
+    color: none;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 15px;
+    height: 60px;
+    
+}
+
+
+.selections {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 40px;
+  
+
+
+}
+
+.selection {
+  background: none;
+  border: 20px;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 100ms;
+  padding-bottom: 30px;
+
+}
+ 
+
+button.selection {
+
+  font-size: 300%;
+  width: 20%;
+
+
+
+}
+
+
+
+.selection:hover {
+
+  transform: scale(1.2);
+
+}
+
+
+.results {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+
+
+.result-score {
+  margin-left: .1rem;
+  font-size: 3rem;
+  color: blue;
+  background-color: none;
+  height: 10px;
+}
+
+.result-selection {
+  opacity: .5;
+}
+
+.result-selection.winner {
+  opacity: 1;
+  font-size: 1.5rem;
+  
+}
+
+.results{
+    
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px;
+    
+    
+    
+}
